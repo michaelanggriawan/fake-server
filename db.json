@@ -1,0 +1,123 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "Paket Ayam Geprek",
+      "price": 19000,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE202305130510521050783/detail/7895cbff6d934769a3b6672dc099315e_1684085638242351479.webp"
+    },
+    {
+      "id": 2,
+      "name": "Paket Mei-Riah",
+      "price": 79000,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE202305130510541215516/detail/cf9fdd96a6314ac1a977d5679d47a795_1684085649567680321.webp"
+    },
+    {
+      "id": 3,
+      "name": "Pc Ayam Spicy Chile Sauce",
+      "price": 19000,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE20220916060710512652/detail/6885018028e540668517ab50fd93f813_1663308430456011974.webp"
+    },
+    {
+      "id": 4,
+      "name": "Signature Young Lamb Kebab",
+      "price": 85999,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2021041409124007766/detail/menueditor_item_d74b01de32294a338ac742944f210489_1674094770276607045.webp"
+    },
+    {
+      "id": 5,
+      "name": "Shahrazad Chicken Kebab",
+      "price": 75999,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2021022523374496103/detail/menueditor_item_16e348fae0a7448bb968a759549b345f_1617613036029942321.webp"
+    },
+    {
+      "id": 6,
+      "name": "Original Young Lamb Kebab",
+      "price": 74999,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2022031305281336155/detail/menueditor_item_98797327cf57435c83ae62764f2f01f5_1647149273825131621.webp"
+    },
+    {
+      "id": 7,
+      "name": "Pisang Goreng Keju",
+      "price": 45000,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/6-C2KTFAVDJLDBVX-C2KTGTXBVUT3LE/detail/caefc79d1bf744feae1419228c1c0bb8_1613490876990253502.webp"
+    },
+    {
+      "id": 8,
+      "name": "Pan Cake",
+      "price": 61000,
+      "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/6-C2KTFAVDJLDBVX-C2KTGTXCE6JDVN/detail/63c48a2aec234ce898ea4ca87b763b52_1649935545468030871.webp"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "menuId": 6,
+      "quantity": 1,
+      "amount": 74999
+    },
+    {
+      "id": 2,
+      "menuId": 5,
+      "quantity": 1,
+      "amount": 75999
+    },
+    {
+      "id": 3,
+      "menuId": 2,
+      "quantity": 1,
+      "amount": 79000
+    },
+    {
+      "id": 4,
+      "menuId": 8,
+      "quantity": 1,
+      "amount": 61000
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "Michael Anggriawan",
+      "items": [
+        {
+          "id": 1,
+          "menuId": 7,
+          "quantity": 1,
+          "amount": 45000,
+          "name": "Pisang Goreng Keju",
+          "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/6-C2KTFAVDJLDBVX-C2KTGTXBVUT3LE/detail/caefc79d1bf744feae1419228c1c0bb8_1613490876990253502.webp",
+          "price": 45000
+        },
+        {
+          "id": 2,
+          "menuId": 8,
+          "quantity": 1,
+          "amount": 61000,
+          "name": "Pan Cake",
+          "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/6-C2KTFAVDJLDBVX-C2KTGTXCE6JDVN/detail/63c48a2aec234ce898ea4ca87b763b52_1649935545468030871.webp",
+          "price": 61000
+        },
+        {
+          "id": 3,
+          "menuId": 5,
+          "quantity": 1,
+          "amount": 75999,
+          "name": "Shahrazad Chicken Kebab",
+          "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2021022523374496103/detail/menueditor_item_16e348fae0a7448bb968a759549b345f_1617613036029942321.webp",
+          "price": 75999
+        },
+        {
+          "id": 4,
+          "menuId": 6,
+          "quantity": 1,
+          "amount": 74999,
+          "name": "Original Young Lamb Kebab",
+          "image": "https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2022031305281336155/detail/menueditor_item_98797327cf57435c83ae62764f2f01f5_1647149273825131621.webp",
+          "price": 74999
+        }
+      ],
+      "totalAmount": 256998
+    }
+  ]
+}
